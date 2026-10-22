@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.TechnicalTest.Library", "src\FnacDarty.TechnicalTest.Library.WebApi\FnacDarty.TechnicalTest.Library.WebApi.csproj", "{7F81073A-D64C-315E-C689-D21B69170B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.TechnicalTest.Library.Application", "src\FnacDarty.TechnicalTest.Library.Application\FnacDarty.TechnicalTest.Library.Application.csproj", "{AD2FF504-DF39-BC04-849F-CB8DF771C942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.TechnicalTest.Library.Domain", "src\FnacDarty.TechnicalTest.Library.Domain\FnacDarty.TechnicalTest.Library.Domain.csproj", "{68369422-4A31-470D-4C89-8989FDE92BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.TechnicalTest.Library.Infrastructure", "src\FnacDarty.TechnicalTest.Library.Infrastructure\FnacDarty.TechnicalTest.Library.Infrastructure.csproj", "{A53AEAA0-DA16-1A92-0341-2901ED5C2103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.TechnicalTest.Library.Test", "src\FnacDarty.TechnicalTest.Library.Test\FnacDarty.TechnicalTest.Library.Test.csproj", "{089EC3B5-A72E-404E-A116-DDAE50E0E73E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F81073A-D64C-315E-C689-D21B69170B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F81073A-D64C-315E-C689-D21B69170B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F81073A-D64C-315E-C689-D21B69170B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F81073A-D64C-315E-C689-D21B69170B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2FF504-DF39-BC04-849F-CB8DF771C942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2FF504-DF39-BC04-849F-CB8DF771C942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2FF504-DF39-BC04-849F-CB8DF771C942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2FF504-DF39-BC04-849F-CB8DF771C942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68369422-4A31-470D-4C89-8989FDE92BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68369422-4A31-470D-4C89-8989FDE92BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68369422-4A31-470D-4C89-8989FDE92BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68369422-4A31-470D-4C89-8989FDE92BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53AEAA0-DA16-1A92-0341-2901ED5C2103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53AEAA0-DA16-1A92-0341-2901ED5C2103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53AEAA0-DA16-1A92-0341-2901ED5C2103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53AEAA0-DA16-1A92-0341-2901ED5C2103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089EC3B5-A72E-404E-A116-DDAE50E0E73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089EC3B5-A72E-404E-A116-DDAE50E0E73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089EC3B5-A72E-404E-A116-DDAE50E0E73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089EC3B5-A72E-404E-A116-DDAE50E0E73E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{089EC3B5-A72E-404E-A116-DDAE50E0E73E} = {25A8A292-861A-4C9A-BD29-78540D03F557}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4409614-55CA-4AEB-AAF5-E2EEC1F485C4}
+	EndGlobalSection
+EndGlobal
