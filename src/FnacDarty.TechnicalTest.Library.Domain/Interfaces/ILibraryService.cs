@@ -7,7 +7,5 @@ namespace FnacDarty.TechnicalTest.Library.Domain.Interfaces
         void AddBook(string Title, string Author);
 
         IReadOnlyCollection<Book> GetAllBooks();
-
-        ResultLoan BorrowBooks(int customerId, List<int> bookIds);
     }
 }
