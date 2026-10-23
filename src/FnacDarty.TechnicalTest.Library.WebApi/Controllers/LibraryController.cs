@@ -11,10 +11,11 @@ namespace FnacDarty.TechnicalTest.Library.Controllers
     public class LibraryController : ControllerBase
     {
         private readonly ILibraryService _libraryService;
-
-        public LibraryController(ILibraryService libraryService)
+        private readonly ICustomerService _customerService;
+        public LibraryController(ILibraryService libraryService, ICustomerService customerService)
         {
             _libraryService = libraryService;
+            _customerService = customerService;
         }
 
         [HttpGet("getAllBooks")]
@@ -42,7 +43,7 @@ namespace FnacDarty.TechnicalTest.Library.Controllers
 
             try
             {
-                var result = _libraryService.BorrowBooks(request.CustomerId, request.BookIds);
+                var result = _customerService.BorrowBooks(request.CustomerId, request.BookIds);
                 return Ok(result);
             }
             catch (CustomerNotFoundException)

@@ -9,7 +9,7 @@ namespace FnacDarty.TechnicalTest.Library.Test
     public class AddBookTests
     {
         [Fact]
-        public void Ajouter_un_livre_appelle_Add_avec_le_bon_titre_et_auteur()
+        public void Add_Book_Calls_Add_With_Correct_Title_And_Author()
         {
             // Arrange : 5 livres existent déjà
             var books = new List<Book>
@@ -23,7 +23,7 @@ namespace FnacDarty.TechnicalTest.Library.Test
             var bookRepo = new Mock<IBookRepository>();
             bookRepo.Setup(r => r.GetAll()).Returns(books);
 
-            var service = new LibraryService(bookRepo.Object, customerRepo.Object);
+            var service = new LibraryService(bookRepo.Object);
 
             // Act
             service.AddBook("Livre 4", "Author 4");

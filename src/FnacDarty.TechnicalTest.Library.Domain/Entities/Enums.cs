@@ -1,6 +1,6 @@
 ﻿namespace FnacDarty.TechnicalTest.Library.Domain.Entities
 {
-    public enum StatutCommande
+    public enum RejectionReason
     {
         LIMIT_REACHED,
         LOAN_OVERDUE,
